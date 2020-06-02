@@ -1,0 +1,43 @@
+@red : #ff3a2d;
+@fontH1 : 'Lobster Two', cursive;
+@fontH2 : 'Sacramento', cursive;
+@fontP: 'Poppins', sans-serif;
+
+
+body{
+	background-image: url(image/databaseBagground.jpg);
+	background-size: cover;
+	.text{
+		background-color: rgba(255, 255, 255, 0.75);
+		position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    text-align: center;
+		p, a{
+			font-family: @fontP;
+			color: #000;
+			text-decoration: none;	
+			margin-bottom: 50px;		
+		}
+		
+		h1{
+			font-family: @fontH1;
+			color:@red;
+			margin-bottom:50px;
+			}
+		h2{
+			font-family: @fontH1;
+			color:@red;
+			margin-bottom:0;
+			}
+			h3{
+			margin-top:0;
+			font-family: @fontH2;
+			color:@red;
+			}
+
+	}
+	
+}
